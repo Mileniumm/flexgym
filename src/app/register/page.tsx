@@ -43,7 +43,7 @@ export default function Register()
                 </div>
             </div>
             <div className="hidden md:flex w-1/2 h-full ">
-                <Image width={600} height={800} alt={"Flexgym"} src={Fondo} className={"w-full h-full object-cover"}
+                <Image width={1200} height={1600} alt={"Flexgym"} src={Fondo} className={"w-full h-full object-cover"}
                 />
             </div>
         </main>
