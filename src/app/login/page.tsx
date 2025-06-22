@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Login()
 {
@@ -44,7 +45,7 @@ export default function Login()
                 </div>
             </div>
             <div className="hidden md:flex w-1/2 h-full ">
-                <img src={"/instagram.png"} className={"w-full h-full object-cover"}
+                <Image width={600} height={800} alt={"Flexgym"} src={"/instagram.png"} className={"w-full h-full object-cover"}
                 />
             </div>
         </main>
