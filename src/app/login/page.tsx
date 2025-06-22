@@ -10,7 +10,7 @@ export default function Login()
                         Ingrese su cuenta
                     </h1>
                     <p className="text-gray-400">
-                        "Controla tu rutina, domina tu progreso"
+                        Controla tu rutina, domina tu progreso
                     </p>
                 </div>
                 <button className={"border border-rose-500 flex items-center w-full py-2.5 justify-center gap-2 rounded-md my-8 md:w-2/3"}>
@@ -19,7 +19,7 @@ export default function Login()
                             d="M11.99 13.9V10.18H21.35C21.49 10.81 21.6 11.4 21.6 12.23C21.6 17.94 17.77 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C14.7 2 16.96 2.99 18.69 4.61L15.85 7.37C15.13 6.69 13.87 5.89 12 5.89C8.69 5.89 5.99 8.64 5.99 12.01C5.99 15.38 8.69 18.13 12 18.13C15.83 18.13 17.24 15.48 17.5 13.91H11.99V13.9Z"
                             fill="white"/>
                     </svg>
-                    <span className="">
+                    <span>
                           Ingrese con Google
                     </span>
                 </button>
