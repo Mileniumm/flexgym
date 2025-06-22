@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Fondo from "../../assets/Instagram.png"
 
 export default function Register()
 {
@@ -42,7 +43,7 @@ export default function Register()
                 </div>
             </div>
             <div className="hidden md:flex w-1/2 h-full ">
-                <Image width={600} height={800} alt={"Flexgym"} src={"/instagram.png"} className={"w-full h-full object-cover"}
+                <Image width={600} height={800} alt={"Flexgym"} src={Fondo} className={"w-full h-full object-cover"}
                 />
             </div>
         </main>
